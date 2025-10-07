@@ -1,0 +1,22 @@
+{
+    "Pratos Principais": {
+        "Moqueca de Peixe": {
+            "descricao": "Deliciosa moqueca com peixe fresco, leite de coco, azeite de dendê e pimentões.",
+            "preco": "R$ 55,00"
+        },
+        "Feijoada Completa": {
+            "descricao": "A tradicional feijoada brasileira, servida com arroz, couve, farofa e laranja.",
+            "preco": "R$ 48,00"
+        },
+        "Picanha na Chapa": {
+            "descricao": "Suculenta picanha fatiada, servida na chapa com batatas fritas e vinagrete.",
+            "preco": "R$ 75,00"
+        }
+    },
+    "Sobremesas": {
+        "Pudim de Leite": {
+            "descricao": "Clássico pudim de leite condensado com calda de caramelo.",
+            "preco": "R$ 15,00"
+        }
+    }
+}

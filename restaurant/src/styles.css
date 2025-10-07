@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  background-color: #eee;
+  width: 100%;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+}
+
+.cardapio-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      margin: 10px 0;
+      font-size: 1.5rem;
+      border-bottom: 1px dashed #ccc;
+      padding-bottom: 10px;
+    }
+
+    .prato-nome {
+      font-weight: bold;
+    }
+
+    .prato-descricao {
+      font-size: 1.1rem;
+      color: #555;
+    }
+  }
+}
